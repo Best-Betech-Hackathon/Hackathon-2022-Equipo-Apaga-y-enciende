@@ -107,7 +107,7 @@ function exploreBattlefiield(state, control) {
 tank.init(function(settings, info) {
   // do not turn at the beginning
 turnTime = 0;
-  settings.SKIN = 'lava';
+  settings.SKIN = 'ocean';
 });
 
 tank.loop(function(state, control) {
